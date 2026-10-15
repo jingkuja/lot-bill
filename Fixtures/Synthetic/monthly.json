@@ -1,0 +1,13 @@
+{
+  "synthetic": true,
+  "currency": "CNY",
+  "amountUnit": "fen",
+  "month": "2026-09",
+  "scope": "all_accounts",
+  "measure": "net_expense",
+  "items": [
+    {"category":"餐饮","amount":135000,"expectedDifference":15000},
+    {"category":"公共出行","amount":40000,"expectedDifference":0}
+  ]
+}
+

@@ -1,0 +1,3 @@
+// Defaults for simulator builds; local signing settings are optional.
+LOT_BILL_BUNDLE_ID = app.lotlife.lotbill
+#include? "Local.xcconfig"

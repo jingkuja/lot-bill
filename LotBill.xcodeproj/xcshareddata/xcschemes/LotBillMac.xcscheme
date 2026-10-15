@@ -1,0 +1,42 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<Scheme LastUpgradeVersion="2700" version="1.3">
+  <BuildAction parallelizeBuildables="YES" buildImplicitDependencies="YES">
+    <BuildActionEntries>
+      <BuildActionEntry buildForTesting="YES" buildForRunning="YES" buildForProfiling="YES" buildForArchiving="YES" buildForAnalyzing="YES">
+        <BuildableReference BuildableIdentifier="primary" BlueprintIdentifier="25D1177F7B13A4C291F1105A" BuildableName="LotBillMac.app" BlueprintName="LotBillMac" ReferencedContainer="container:LotBill.xcodeproj" />
+      </BuildActionEntry>
+      <BuildActionEntry buildForTesting="YES" buildForRunning="NO" buildForProfiling="NO" buildForArchiving="NO" buildForAnalyzing="YES">
+        <BuildableReference BuildableIdentifier="primary" BlueprintIdentifier="8D5E33ACF143301DE0F65734" BuildableName="LotBillMacTests.xctest" BlueprintName="LotBillMacTests" ReferencedContainer="container:LotBill.xcodeproj" />
+      </BuildActionEntry>
+      <BuildActionEntry buildForTesting="YES" buildForRunning="NO" buildForProfiling="NO" buildForArchiving="NO" buildForAnalyzing="YES">
+        <BuildableReference BuildableIdentifier="primary" BlueprintIdentifier="9411C3E4CA47326096F3D0FB" BuildableName="LotBillMacUITests.xctest" BlueprintName="LotBillMacUITests" ReferencedContainer="container:LotBill.xcodeproj" />
+      </BuildActionEntry>
+    </BuildActionEntries>
+  </BuildAction>
+  <TestAction buildConfiguration="Debug" selectedDebuggerIdentifier="Xcode.DebuggerFoundation.Debugger.LLDB" selectedLauncherIdentifier="Xcode.IDEFoundation.Launcher.LLDB" shouldUseLaunchSchemeArgsEnv="NO">
+    <Testables>
+      <TestableReference skipped="NO">
+        <BuildableReference BuildableIdentifier="primary" BlueprintIdentifier="8D5E33ACF143301DE0F65734" BuildableName="LotBillMacTests.xctest" BlueprintName="LotBillMacTests" ReferencedContainer="container:LotBill.xcodeproj" />
+      </TestableReference>
+      <TestableReference skipped="NO">
+        <BuildableReference BuildableIdentifier="primary" BlueprintIdentifier="9411C3E4CA47326096F3D0FB" BuildableName="LotBillMacUITests.xctest" BlueprintName="LotBillMacUITests" ReferencedContainer="container:LotBill.xcodeproj" />
+      </TestableReference>
+    </Testables>
+    <CommandLineArguments>
+      <CommandLineArgument argument="--ledger-test-store" isEnabled="YES" />
+      <CommandLineArgument argument="B5A90894-96B3-4524-A67A-B76A0509EC06" isEnabled="YES" />
+    </CommandLineArguments>
+  </TestAction>
+  <LaunchAction buildConfiguration="Debug" selectedDebuggerIdentifier="Xcode.DebuggerFoundation.Debugger.LLDB" selectedLauncherIdentifier="Xcode.IDEFoundation.Launcher.LLDB" launchStyle="0" useCustomWorkingDirectory="NO" ignoresPersistentStateOnLaunch="NO" debugDocumentVersioning="YES" debugServiceExtension="internal" allowLocationSimulation="YES">
+    <BuildableProductRunnable runnableDebuggingMode="0">
+      <BuildableReference BuildableIdentifier="primary" BlueprintIdentifier="25D1177F7B13A4C291F1105A" BuildableName="LotBillMac.app" BlueprintName="LotBillMac" ReferencedContainer="container:LotBill.xcodeproj" />
+    </BuildableProductRunnable>
+  </LaunchAction>
+  <ProfileAction buildConfiguration="Release" shouldUseLaunchSchemeArgsEnv="YES" savedToolIdentifier="" useCustomWorkingDirectory="NO" debugDocumentVersioning="YES">
+    <BuildableProductRunnable runnableDebuggingMode="0">
+      <BuildableReference BuildableIdentifier="primary" BlueprintIdentifier="25D1177F7B13A4C291F1105A" BuildableName="LotBillMac.app" BlueprintName="LotBillMac" ReferencedContainer="container:LotBill.xcodeproj" />
+    </BuildableProductRunnable>
+  </ProfileAction>
+  <AnalyzeAction buildConfiguration="Debug" />
+  <ArchiveAction buildConfiguration="Release" revealArchiveInOrganizer="YES" />
+</Scheme>

@@ -1,0 +1,12 @@
+{
+  "synthetic": true,
+  "currency": "CNY",
+  "amountUnit": "fen",
+  "records": [
+    {"periodStart":"2025-01-01","periodEndExclusive":"2026-01-01","precision":"year","category":"日常支出","amount":1200000},
+    {"periodStart":"2026-01-01","periodEndExclusive":"2026-09-01","precision":"range","category":"日常支出","amount":800000},
+    {"periodStart":"2026-01-01","periodEndExclusive":"2026-09-01","precision":"range","category":"用车费用","amount":0},
+    {"periodStart":"2026-01-01","periodEndExclusive":"2026-09-01","precision":"range","category":"服饰","amount":null}
+  ]
+}
+

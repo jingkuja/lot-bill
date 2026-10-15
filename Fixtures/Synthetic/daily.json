@@ -1,0 +1,11 @@
+{
+  "synthetic": true,
+  "currency": "CNY",
+  "amountUnit": "fen",
+  "records": [
+    {"id":"synthetic-001","date":"2026-09-05","type":"expense","category":"餐饮","amount":50000},
+    {"id":"synthetic-002","date":"2026-09-15","type":"expense","category":"餐饮","amount":70000},
+    {"id":"synthetic-003","date":"2026-09-20","type":"expense","category":"公共出行","amount":40000}
+  ]
+}
+

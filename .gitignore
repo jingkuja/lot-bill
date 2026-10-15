@@ -1,0 +1,35 @@
+# Xcode and Swift build output
+.DS_Store
+DerivedData/
+build/
+.build/
+*.xcuserstate
+xcuserdata/
+*.xcresult/
+*.ipa
+*.dSYM/
+
+# Local credentials and configuration
+.env
+.env.*
+!.env.example
+*.p12
+*.mobileprovision
+*.key
+Config/Local.xcconfig
+
+# Personal financial data: store only synthetic fixtures in the repository
+PrivateData/
+Backups/
+Exports/
+*.xlsx
+*.xls
+*.csv
+*.sqlite
+*.sqlite-*
+*.store
+*.store-*
+
+# Only explicitly synthetic import fixtures may be versioned.
+!Fixtures/Synthetic/*.csv
+!Fixtures/Synthetic/*.xlsx
